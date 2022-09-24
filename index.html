@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu();">Over mij</a></li>
+                    <li><a href="#project" onclick="toggleMenu();">Projecten</a></li>
+                    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="topbar">
+                    <a href="#" class="logo">portfolio van Olivier Schell</a>
+                    <div class="toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+                <!-- banner -->
+                <section class="banner" id="banner">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="media/portfolio_foto.JPG">
+                        </div>
+                            <h3>Olivier Schell</h3>
+                            <p>ik ben een software developer.</p>
+                            <a href="cv/cv.html" class="btn">Download mijn CV</a>
+                            <ul class="socialMedia">
+                                <li><a href="https://www.instagram.com/_gewoonolivier/"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/olivier-schell-8663711a3/"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                </section>
+
+                <!-- About -->
+               <section class="about adjust" id="about">
+                <div class="title">
+                    <h2>Over mij</h2>
+                </div>
+                <div class="content">
+                <div class="textBox">
+                    <p>Hallo,<br>
+                    Mijn naam is Olivier Schell, 19 jaar oud, woonachtig in Rockanje. Ik ben derdejaars student op het Techniek College Rotterdam, vestiging Spijkenisse.
+                    Ik werk al jaren bij Brunotti aan het Oostvoorns Meer, hier werk ik meestal als runner, maar indien nodig, ook als medewerker in de keuken. In teamverband werken doe ik graag, want ik vind het leuk om van anderen te leren. Maar zelfstandig werken is voor mij ook geen probleem.           
+                    In mijn vrije tijd vind ik het leuk om te windsurfen, te reizen en te gamen.
+                    </p>
+                </div>
+                <div class="imgBx">
+                    <img src="media/portfolio_foto_about_me.PNG">
+                </div>
+                </div>
+               </section>
+
+               <!-- projecten -->
+
+               <section class="project adjust" id="project">
+                <div class="title">
+                    <h2>Projecten</h2>
+                    <p>dit zijn in mijn mening mijn beste projecten, ik heb ze gemaakt op school en in mijn vrije tijd</p>
+                </div>
+                <div class="content">
+                    <div class="workBx">
+                        <div class="imgBx projectfoto">
+                            <img src="media/galgje_project.JPG">
+                        </div>
+                        <div class="textBx">
+                            <a href="galgje/galgje.html"><h3>klik hier om Project 01 te bekijken</h3></a>
+                        </div>
+                    </div>
+
+                    <div class="workBx">
+                        <div class="imgBx projectfoto">
+                            <img src="media/salaris_berekenen_project.JPG">
+                        </div>
+                        <div class="textBx">
+                            <a href="reken app/bereken_salaris.html"><h3>klik hier om Project 02 te bekijken</h3></a>
+                        </div>
+                    </div>
+
+                    <div class="workBx">
+                        <div class="imgBx projectfoto">
+                            <img src="media/project_picker_frontend_project.PNG">
+                        </div>
+                        <div class="textBx">
+                            <a href="project_picker_site/index.html"><h3>klik hier om Project 03 te bekijken</h3></a>
+                        </div>
+                    </div>
+
+                    <div class="workBx">
+                        <div class="imgBx projectfoto">
+                            <img src="media/sterrenacht.PNG">
+                        </div>
+                        <div class="textBx">
+                            <a href="sterrennacht_banner/index.html"><h3>klik hier om Project 04 te bekijken</h3></a>
+                        </div>
+                    </div>
+
+                    <div class="workBx">
+                        <div class="imgBx projectfoto">
+                            <img src="media/portfolio_background.PNG">
+                        </div>
+                        <div class="textBx">
+                            <a href="javascript_background/index.html"><h3>klik hier om Project 05 te bekijken</h3></a>
+                        </div>
+                    </div>
+
+                    <div class="workBx">
+                        <div class="imgBx projectfoto">
+                            <img src="media/discofloor_foto.PNG">
+                        </div>
+                        <div class="textBx">
+                            <a href="discofloor/index.html"><h3>klik hier om Project 06 te bekijken</h3></a>
+                        </div>
+                    </div>
+
+                </div>
+                </section>
+
+                <!--contact-->
+                <section class="contact adjust" id="contact">
+                    <div class="title">
+                        <h2>contact</h2>
+                        <p>dit is een voorbeeld van een contact formulier.</p>
+                    </div>
+                    <div class="contactForm">
+                        <div class="row">
+                            <input type="text" name="" placeholder="voornaam">
+                            <input type="text" name="" placeholder="achternaam">
+                        </div>
+                        <div class="row">
+                            <input type="text" name="" placeholder="Email adres">
+                            <input type="text" name="" placeholder="Mobiele telefoonnummer">
+                        </div>
+                        <div class="row2">
+                            <textarea placeholder="Bericht"></textarea>
+                        </div>
+                        <div class="row2">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </section>
+
+                </div>
+            </div>
+            <script src="portfolio_function.js"></script>
+    </body>
+</html>
