@@ -458,18 +458,18 @@ p
     }
     .project .content
     {
-        grid-template-columns: 2,1fr;
+        grid-template-columns: none;
     }
 }
 @media (max-width: 767px)
 {
     .project .content
     {
-        grid-template-columns: repeat(1.1fr);
+        grid-template-columns: none;
     }
     .contact .contactForm .row
     {
-        grid-template-columns: repeat(1.1fr);
+        grid-template-columns: none;
     }
     .contact
     {
