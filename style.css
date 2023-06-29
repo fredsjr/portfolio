@@ -411,6 +411,8 @@ p
     color: var(--black);
 }
 
+/* timeline */
+
 .timeline {
     position: relative;
 }
